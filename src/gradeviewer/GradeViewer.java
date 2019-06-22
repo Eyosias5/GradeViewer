@@ -37,7 +37,8 @@ public class GradeViewer {
           WebElement loginButton = driver.findElement(By.xpath("//*[@id=\"home\"]/div[2]/div[2]/form/div[4]/div/button"));
           
           atr.sendKeys("ATR/0484/09");
-          password.sendKeys("3484");
+          //password deleted
+          password.sendKeys("****");
           loginButton.click();
           
           driver.navigate().to("https://portal.aait.edu.et/Grade/GradeReport");
